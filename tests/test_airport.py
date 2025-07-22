@@ -11,6 +11,7 @@ def test_gate_output(mocker):
     # Use mocker.patch.object to override the check_price method of the Gate class.
     # If any dimension of the suitcase is greater than 500, it should return "543.21".
     # Otherwise, it should return "124.45".
+    # Write two assert statements to check the output of the check_price method for two different Suitcase objects.
     pass
 
 
